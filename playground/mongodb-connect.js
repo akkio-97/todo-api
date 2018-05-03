@@ -34,14 +34,8 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, client) => {
   }, (err) => {
     console.log('unable to fetch todos',err);
   })
-  // db.collection("users").insertOne({
-  //   name: "user1",
-  //   occupation: "nothing"
-  // }, (err, result) => {
-  //   if(err){
-  //     return console.log("cannot insert");
-  
-  
+
+
   //   }
   //   console.log(JSON.stringify(result.ops, undefined, 2));
   // })
