@@ -2,6 +2,7 @@ const MongoClient = require('mongodb').MongoClient;
 
 
 
+var user = {name: "akshay", age: 21};
 var {name} = user;
 
 
