@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient;
 
-var user = {name: "nikhi",last: "george" age: 22};
+
 
 var user = {name: "akshay", age: 21};
 var {name} = user;
